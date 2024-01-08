@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Sign-up form</title>
+</head>
+<body>
+   <div class="container"> 
+    <div class="side-header">
+        <div> 
+            <p> Sign up Form </p>
+            <img src="images/odin-lined.png">
+         </div>
+   </div>
+ 
+    <div class="form-container">    
+       
+        <form id="form">
+        <div class="box">
+    <label for="first_name"> <span> FIRST NAME </span></label>
+    <input type="text" name="first_name" id="first_name" required/>
+ </div>
+ <div class="box">
+    <label for="last_name"> <span> LAST NAME </span></label>
+    <input type="text" name="last_name" id="last_name" required/>
+ </div>
+ <div class="box">
+    <label for="email"> <span> EMAIL </span></label>
+    <input type="email" name="mail" id="email" required/>
+ </div>
+ <div class="box">
+    <label for="phone"> <span> PHONE NUMBER </span></label>
+    <input type="number" name="phone_number" id="phone"/>
+ </div>
+ <div class="box">
+    <label for="pass"> <span> PASSWORD </span></label>
+    <input type="password" name="password" minlength="8" id="pass" required/>
+    <div class="error"> <span> </span> </div>
+ </div>
+ <div class="box">
+    <label for="cpass"> <span> CONFIRM PASSWORD </span></label>
+    <input type="password" name="cpassword" id="cpass" required/>
+    <div class="error"> <span> </span> </div>
+</div>
+<div class="box">
+    <input type="submit" value="SUBMIT"/>
+</div>
+
+</div>
+
+</div>
+
+</form>
+</body>
+<script src="script.js"> </script>
+</html>

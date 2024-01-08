@@ -1,0 +1,128 @@
+
+body {
+    height: 100vh;
+    width: 100v;
+    display: flex;
+    margin: 0;
+    background: #0b1f38;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+.side-header {
+align-items: center;
+
+}
+.side-header p {
+    font-size: 2.4rem;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+  
+}
+.side-header div {
+  display:flex;
+  position: relative;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0 0 0 / 60%);
+  height: 200px;
+  width: 100%;
+
+}
+
+img {
+    height: 60%;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+    height: auto;
+    width: 70%;
+}
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 30px 0px 30px 0px;
+    flex-basis: calc(50% - 80px); 
+    color: rgb(207, 153, 148);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#form > div:last-child {
+    align-items: center;
+}
+
+.side-header p {
+font-size: 3rem;
+}
+input[type="submit"] {
+background-color: rgb(207, 153, 148);
+padding: 15px;
+width: 200px;
+border-radius: 20px;
+border: 0;
+color: #0b1f38;
+font-family: 'Open Sans', sans-serif;
+font-size: 1rem;
+}
+
+.side-header{
+display: flex;
+position: relative;
+background-image: url("images/mountain.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 1000px;
+left: 0px;
+object-fit:cover;
+}
+
+input[type='text'], input[type='email'], input[type='password']
+, input[type='number'] {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.43rem;
+    color: rgb(207, 153, 148);
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.error {
+    color: rgb(255, 48, 48);
+    letter-spacing: 0.5px;
+    margin: 7px 0px 7px 0px;
+
+}
+
+
+input[type=submit] {
+cursor: pointer;
+}
